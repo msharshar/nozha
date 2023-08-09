@@ -1,0 +1,216 @@
+*{
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    text-align: right;
+}
+button{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+nav h3 a{
+    font-family: 'Rakkas', cursive;
+}
+.fonty{
+    font-family: 'Rakkas', cursive;
+}
+
+/* ===== Navbar ===== */
+nav form input{
+    border-radius: 0 200px 200px 0;
+}
+nav form button{
+    border-radius: 200px 0 0 200px;
+    margin-right: -4px;
+}
+nav .new{
+    margin-right: -8px;
+    margin-left: 0;
+}
+/* ===== Feed page ===== */ 
+.profile-box .avatar{
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+/* ===== Profile page ===== */
+.profile-header .profile-nav .btn{
+    float: left;
+}
+.post .avatar{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.friend img{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    /* ===== Navbar ===== */
+
+
+    /* ===== Feed page ===== */
+
+
+    /* ===== Profile page ===== */
+    /* ===== No changes ===== */
+
+    /* ===== Settings page ===== */
+    /* ===== No changes ===== */
+
+    /* ===== Places page ===== */
+    /* ===== No changes ===== */
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* ===== Navbar ===== */
+    
+
+    /* ===== Feed page ===== */
+    .profile-box{
+        overflow: hidden;
+        font-size: 14px;
+    }
+    .profile-box h3{
+        font-size: 20px;
+    }
+    .position{
+        width: 225px;
+    }
+    .center{
+        width: calc(100% - 225px);
+    }
+
+    /* ===== Profile page ===== */
+    /* ===== No changes ===== */
+
+    /* ===== Settings page ===== */
+    /* ===== No changes ===== */
+
+    /* ===== Places page ===== */
+    /* ===== No changes ===== */
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ===== Navbar ===== */
+   
+
+    /* ===== Feed page ===== */
+    .position{
+        display: none;
+    }
+    .wpost{
+        margin-top: 30px;
+    }
+
+    /* ===== Profile page ===== */
+    .profile-header .avatarcard{
+        text-align: center
+    }
+    .profile-header .name{
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .profile-header .username{
+        font-size: 25px;
+        margin-left: 0;
+    }
+    .profile-header .bio{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    /* ===== Settings page ===== */
+    /* ===== No changes ===== */
+    /* ===== Places page ===== */
+    .single-place{
+        text-align: center;
+    }
+    .single-place .title{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .navigation a{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .more{
+        float: none;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 767px) {
+    /* ===== Navbar ===== */
+    nav{
+        text-align: center !important;
+    }
+
+    /* ===== Feed page ===== */
+    .position{
+        display: none;
+    }
+    .wpost{
+        margin-top: 90px;
+    }
+
+    /* ===== Profile page ===== */
+    .profile-header .avatarcard{
+        text-align: center
+    }
+    .profile-header .name{
+        font-size: 35px;
+        margin-left: 0;
+    }
+    .profile-header .username{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .profile-header .profile-nav a{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .profile-header .bio{
+        margin: 0;
+        margin-bottom: 15px;
+        text-align: center
+    }
+
+    /* ===== Settings page ===== */
+    .edit .edit-title{
+        margin-top: 90px;
+    }
+
+    /* ===== Places page ===== */
+    .single-place{
+        text-align: center;
+    }
+    .single-place .title{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .navigation a{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .more{
+        float: none;
+    }
+
+    /* ===== Add place page ===== */
+    .addplace{
+        text-align: center;
+    }
+    .addplace .title{
+        margin-top: 100px;
+        width: 100%;
+    }
+
+}
